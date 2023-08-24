@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://todo-list-app-inak-api.onrender.com/"],
+    origin: ["http://localhost:3000", "https://todo-list-app-inak.onrender.com/"],
   })
 );
 
